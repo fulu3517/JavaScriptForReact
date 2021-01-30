@@ -30,4 +30,6 @@ const plus = (number1,number2) => {
     return number1 + number2;
 }
 console.log("Plus", plus(3,5));
-
+// üstteki fonksiyonu implecent retur şekllinde refactor edebilirizz. 
+// Fonksiyonun içi tek bir satırsa şu şekilde yazabiliriz;
+// const plus = (number1, number2) => number1 + number2
